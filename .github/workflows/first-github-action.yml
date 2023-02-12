@@ -13,11 +13,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Runs a single command using the runners shell
-      - name: Run a one-line script  # it is a name given to your step and you change the name of the step 
+      - name: Run a one-line script  # it is a name given to your step 1 and you change the name of the step 
         run: echo "Hello, world!"
 
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Run a multi-line script # it is a name given to your step 2 and you change the name of the step 
         run: 
           echo "Add other actions to build,"
           echo "test, and deploy your project."
